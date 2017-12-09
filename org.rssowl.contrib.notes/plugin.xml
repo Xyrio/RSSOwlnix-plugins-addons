@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.rssowl.ui.EntityPropertyPage">
+      <entityPropertyPage
+            class="org.rssowl.contrib.notes.internal.NotesPropertyPage"
+            handlesMultipleEntities="false"
+            id="org.rssowl.contrib.notes.NotesPropertyPage"
+            name="%entityPropertyPage.name"
+            order="100">
+         <targetEntity
+               class="org.rssowl.core.persist.IFolderChild">
+         </targetEntity>
+      </entityPropertyPage>
+   </extension>
+
+</plugin>

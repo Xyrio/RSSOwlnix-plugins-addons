@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="org.rssowl.contrib.tools.FeedToolsActionSet"
+            label="%actionSet.label"
+            visible="true">
+         <action
+               class="org.rssowl.contrib.tools.internal.ViewFeedSourceAction"
+               definitionId="org.rssowl.contrib.tools.ViewFeedSource"
+               id="org.rssowl.contrib.tools.ViewFeedSource"
+               label="%action.label"
+               menubarPath="tools/additions"
+               style="push">
+         </action>
+         <action
+               class="org.rssowl.contrib.tools.internal.ValidateFeedAction"
+               definitionId="org.rssowl.contrib.tools.ValidateFeedAction"
+               id="org.rssowl.contrib.tools.ValidateFeedAction"
+               label="%action.label.0"
+               menubarPath="tools/additions"
+               style="push">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.rssowl.ui.commands.category.RSSOwl"
+            description="%command.description"
+            id="org.rssowl.contrib.tools.ViewFeedSource"
+            name="%command.name">
+      </command>
+      <command
+            categoryId="org.rssowl.ui.commands.category.RSSOwl"
+            description="%command.description.0"
+            id="org.rssowl.contrib.tools.ValidateFeedAction"
+            name="%command.name.0">
+      </command>
+   </extension>
+
+</plugin>

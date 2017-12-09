@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="org.rssowl.contrib.offline.OfflineModus"
+            label="%actionSet.label"
+            visible="true">
+         <action
+               class="org.rssowl.contrib.offline.internal.GoOfflineAction"
+               definitionId="org.rssowl.contrib.offline.GoOfflineAction"
+               id="org.rssowl.contrib.offline.GoOfflineAction"
+               label="%action.label"
+               menubarPath="file/fileEnd"
+               style="push">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.rssowl.ui.commands.category.RSSOwl"
+            description="%command.description"
+            id="org.rssowl.contrib.offline.GoOfflineAction"
+            name="%command.name">
+      </command>
+   </extension>
+
+</plugin>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.rssowl.contrib.notes;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: %Bundle-Vendor
+Require-Bundle: org.rssowl.ui,
+ org.rssowl.core,
+ org.eclipse.ui
+Bundle-Localization: plugin
+Export-Package: org.rssowl.contrib.notes.internal

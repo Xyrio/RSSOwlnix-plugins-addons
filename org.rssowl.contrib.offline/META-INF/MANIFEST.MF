@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.rssowl.contrib.offline;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Localization: plugin
+Bundle-Vendor: %Bundle-Vendor
+Require-Bundle: org.rssowl.ui,
+ org.eclipse.ui,
+ org.eclipse.osgi
+Export-Package: org.rssowl.contrib.offline.internal

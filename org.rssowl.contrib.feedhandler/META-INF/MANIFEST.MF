@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.rssowl.contrib.feedhandler;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.rssowl.core,
+ org.rssowl.ui
+Export-Package: org.rssowl.contrib.feedhandler.internal
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.rssowl.contrib.feedhandler.internal.Activator
+Bundle-ClassPath: .
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Localization: plugin
