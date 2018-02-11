@@ -2,8 +2,8 @@
 <feature
       id="org.rssowl.contrib.nntp"
       label="Newsgroup Reader"
-      version="2.0.3"
-      provider-name="RSSOwl.org">
+      version="2.0.4"
+      provider-name="https://github.com/Xyrio/RSSOwlnix">
 
    <description>
       Read Newsgroups in RSSOwl. After installation you will be able 
@@ -232,7 +232,7 @@ litigation.
    </license>
 
    <url>
-      <update label="RSSOwl.org" url="http://boreal.rssowl.org/update/addons/"/>
+      <update label="https://github.com/Xyrio/RSSOwlnix" url="https://xyrio.github.io/RSSOwlnix-site/update/addons/"/>
    </url>
 
    <requires>

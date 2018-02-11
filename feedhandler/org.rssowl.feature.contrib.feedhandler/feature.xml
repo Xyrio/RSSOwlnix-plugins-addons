@@ -2,7 +2,7 @@
 <feature
       id="org.rssowl.feature.contrib.feedhandler"
       label="Feed Handler"
-      version="1.0.0"
+      version="1.0.1"
       provider-name="https://github.com/Xyrio/RSSOwlnix"
       os="win32">
 
@@ -234,7 +234,7 @@ litigation.
    </license>
 
    <url>
-      <update label="RSSOwl.org" url="http://boreal.rssowl.org/update/addons/"/>
+      <update label="https://github.com/Xyrio/RSSOwlnix" url="https://xyrio.github.io/RSSOwlnix-site/update/addons/"/>
    </url>
 
    <requires>

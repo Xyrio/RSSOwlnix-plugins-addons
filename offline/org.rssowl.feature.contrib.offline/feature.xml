@@ -2,8 +2,8 @@
 <feature
       id="org.rssowl.feature.contrib.offline"
       label="Offline Mode"
-      version="1.0.0"
-      provider-name="RSSOwl.org">
+      version="1.0.1"
+      provider-name="https://github.com/Xyrio/RSSOwlnix">
 
    <description>
       This add-on will add a new entry to the File menu to switch to an offline modus where feeds will no longer update or attachments downloaded.
@@ -229,7 +229,7 @@ litigation.
    </license>
 
    <url>
-      <update label="RSSOwl.org" url="http://boreal.rssowl.org/update/addons/"/>
+      <update label="https://github.com/Xyrio/RSSOwlnix" url="https://xyrio.github.io/RSSOwlnix-site/update/addons/"/>
    </url>
 
    <requires>
