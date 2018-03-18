@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.rssowl.contrib.nntp"
-      label="Newsgroup Reader"
+      id="org.rssowl.feature.contrib.nntp"
+      label="Addon Newsgroup Reader"
       version="2.0.4"
       provider-name="https://github.com/Xyrio/RSSOwlnix">
 
    <description>
-      Read Newsgroups in RSSOwl. After installation you will be able 
-to read newsgroups as if they where feeds. To add a new newsgroup, 
-simply create a new bookmark and use the following format for the 
+      Read Newsgroups in RSSOwlnix. After installation you will be able
+to read newsgroups as if they where feeds. To add a new newsgroup,
+simply create a new bookmark and use the following format for
+the 
 link: news://server/groupname (e.g. news://news.server.org/news.group.name)
    </description>
 
@@ -230,10 +231,6 @@ Agreement more than one year after the cause of action arose.
 Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
-
-   <url>
-      <update label="https://github.com/Xyrio/RSSOwlnix" url="https://xyrio.github.io/RSSOwlnix-site/update/addons/"/>
-   </url>
 
    <requires>
       <import plugin="org.eclipse.core.runtime"/>

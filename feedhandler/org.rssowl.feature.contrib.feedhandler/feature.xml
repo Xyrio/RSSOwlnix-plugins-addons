@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.rssowl.feature.contrib.feedhandler"
-      label="Feed Handler"
+      label="Addon Feed Handler"
       version="1.0.1"
       provider-name="https://github.com/Xyrio/RSSOwlnix"
       os="win32">
@@ -232,10 +232,6 @@ Agreement more than one year after the cause of action arose.
 Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
-
-   <url>
-      <update label="https://github.com/Xyrio/RSSOwlnix" url="https://xyrio.github.io/RSSOwlnix-site/update/addons/"/>
-   </url>
 
    <requires>
       <import plugin="org.eclipse.ui"/>
